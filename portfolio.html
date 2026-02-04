@@ -3,103 +3,91 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Sribalajee Sivabal - Portfolio</title>
+  <title>Sribalajee Sivabal - Quality Assurance Expert</title>
   <style>
-    /* Reset & base */
-    * {
-      box-sizing: border-box;
+    body {
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      background-color: #eef2f7;
+      color: #2c3e50;
       margin: 0;
       padding: 0;
     }
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #f0f4f8;
-      color: #333;
-      line-height: 1.6;
-      min-height: 100vh;
-      display: flex;
-      justify-content: center;
-      padding: 40px 20px;
-    }
     .container {
       max-width: 900px;
-      background: #fff;
+      margin: 40px auto;
+      background: white;
       padding: 40px 50px;
-      border-radius: 12px;
-      box-shadow: 0 8px 24px rgba(0,0,0,0.1);
-      border: 1px solid #e1e7ec;
+      border-radius: 10px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
     }
     header {
       text-align: center;
       margin-bottom: 40px;
-      border-bottom: 2px solid #2980b9;
-      padding-bottom: 20px;
     }
     header h1 {
-      font-size: 3rem;
-      color: #2c3e50;
-      margin-bottom: 6px;
-      letter-spacing: 1.2px;
+      font-size: 2.8rem;
+      margin-bottom: 5px;
+      letter-spacing: 2px;
+      font-weight: 700;
+      color: #1a2935;
     }
-    header h3 {
+    header p {
+      font-size: 1.3rem;
       font-weight: 500;
-      color: #2980b9;
-      font-size: 1.25rem;
-      font-style: italic;
+      color: #3b82f6;
+      margin-top: 0;
+      letter-spacing: 1px;
     }
     section {
-      margin-bottom: 40px;
+      margin-bottom: 35px;
     }
     h2 {
-      color: #2c3e50;
-      border-left: 6px solid #2980b9;
-      padding-left: 12px;
-      margin-bottom: 20px;
       font-size: 1.8rem;
-      letter-spacing: 0.8px;
+      border-bottom: 3px solid #3b82f6;
+      padding-bottom: 8px;
+      margin-bottom: 20px;
+      font-weight: 700;
+      color: #1a2935;
     }
-    p.intro {
-      font-size: 1.125rem;
-      color: #555;
-      max-width: 700px;
-      margin: 0 auto;
-      text-align: center;
-      line-height: 1.5;
+    p.lead {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #4a5568;
+      max-width: 800px;
+      margin: 0 auto 30px;
+      font-weight: 400;
     }
     ul {
-      list-style-type: disc;
+      max-width: 800px;
+      margin: 0 auto;
       padding-left: 20px;
-      max-width: 700px;
-      margin: 0 auto;
-      color: #444;
+      color: #4a5568;
       font-size: 1rem;
-    }
-    li {
-      margin-bottom: 12px;
-    }
-    .education p,
-    .contact p {
-      font-size: 1rem;
-      color: #444;
-      max-width: 700px;
-      margin: 0 auto;
       line-height: 1.5;
     }
-    .contact a {
-      color: #2980b9;
-      text-decoration: none;
+    ul li {
+      margin-bottom: 12px;
+    }
+    .contact-info {
+      font-size: 1rem;
+      text-align: center;
+      color: #2563eb;
       font-weight: 600;
     }
-    .contact a:hover {
+    .contact-info a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+    .contact-info a:hover {
       text-decoration: underline;
     }
     footer {
       text-align: center;
-      color: #888;
       font-size: 0.9rem;
+      color: #94a3b8;
+      margin-top: 50px;
       padding-top: 20px;
-      border-top: 1px solid #e1e7ec;
-      margin-top: 20px;
+      border-top: 1px solid #cbd5e1;
     }
     @media (max-width: 600px) {
       .container {
@@ -108,13 +96,13 @@
       header h1 {
         font-size: 2rem;
       }
-      header h3 {
+      header p {
         font-size: 1rem;
       }
       h2 {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
       }
-      p.intro, ul, .education p, .contact p {
+      p.lead, ul {
         font-size: 0.95rem;
       }
     }
@@ -124,44 +112,55 @@
   <div class="container" role="main">
     <header>
       <h1>Sribalajee Sivabal</h1>
-      <h3>Senior QA Engineer | Insurance Domain Specialist</h3>
+      <p>Senior Quality Assurance Engineer | Insurance Domain Specialist</p>
     </header>
 
-    <section aria-label="Introduction">
-      <p class="intro">
-        Senior QA Engineer with nearly 5 years of experience in software quality assurance within the insurance domain. Proven track record in reducing defect leakage by 30% and achieving 95% test coverage through strategic manual testing and root cause analysis. Skilled in JIRA, SQL, and API testing with Postman, known for driving release stability and collaborating cross-functionally to support automation initiatives.
+    <section aria-label="Professional Overview">
+      <h2>Professional Overview</h2>
+      <p class="lead">
+        Driving excellence in software quality with a strong focus on risk management and automation synergy. Bringing nearly five years of expertise in elevating insurance technology through innovative testing strategies, defect reduction, and seamless cross-team collaboration. Adept at transforming complex challenges into streamlined, reliable solutions that enhance customer trust and operational efficiency.
       </p>
     </section>
 
-    <section aria-label="Work Experience Highlights">
-      <h2>Work Experience Highlights</h2>
+    <section aria-label="Core Competencies">
+      <h2>Core Competencies</h2>
       <ul>
-        <li>Led QA activities for high-risk UI-based MFA project, achieving 95% test coverage and reducing critical authentication defects.</li>
-        <li>Managed API validation for 25–30 REST APIs using Postman and Boomi, reducing manual testing time by 40%.</li>
-        <li>Mentored junior testers and coordinated QA efforts for sub-teams, improving onboarding and sprint delivery predictability.</li>
-        <li>Implemented risk-based testing strategies and collaborated with automation engineers to achieve 95% automation success.</li>
+        <li>Strategic Test Planning & Risk-Based Testing for high-impact insurance systems</li>
+        <li>Comprehensive Manual & Automated Testing Integration</li>
+        <li>Advanced API Testing & Backend Validation using Postman and SQL</li>
+        <li>Root Cause Analysis & Defect Lifecycle Management to minimize production defects</li>
+        <li>Mentorship & Team Leadership to boost QA productivity and quality standards</li>
+        <li>Continuous Improvement of QA Processes and Agile Sprint Execution</li>
       </ul>
     </section>
 
-    <section class="education" aria-label="Education">
-      <h2>Education</h2>
-      <p><strong>Bachelor of Engineering (B.E.) in Computer Science and Engineering</strong><br />
-      Panimalar Engineering College, Chennai — May 2016</p>
+    <section aria-label="Career Highlights">
+      <h2>Career Highlights</h2>
+      <ul>
+        <li>Championed QA efforts for a critical Multi-Factor Authentication (MFA) system, ensuring security compliance and achieving over 95% test coverage, dramatically reducing authentication-related defects.</li>
+        <li>Led API validation for 25+ REST endpoints across core insurance modules, leveraging Postman and cloud integration tools to cut manual testing time by 40% and accelerate release cycles.</li>
+        <li>Mentored junior QA engineers, accelerating onboarding by weeks and enhancing test case effectiveness, resulting in more predictable and stable sprint deliveries.</li>
+        <li>Implemented risk-based testing frameworks and collaborated closely with automation teams to sustain a 95% automation success rate, optimizing regression cycles and manual testing focus.</li>
+      </ul>
     </section>
 
-    <section aria-label="Certifications">
-      <h2>Certifications</h2>
+    <section aria-label="Education & Certifications">
+      <h2>Education & Certifications</h2>
+      <p><strong>Bachelor of Engineering (B.E.) in Computer Science and Engineering</strong><br />
+      Panimalar Engineering College, Chennai — May 2016</p>
       <ul>
         <li>LOMA 281 – Meeting Customer Needs in Insurance and Annuities (Dec 2024)</li>
         <li>LOMA 291 – Insurance Company Operations (Mar 2025)</li>
       </ul>
     </section>
 
-    <section class="contact" aria-label="Contact Information">
+    <section aria-label="Contact Information">
       <h2>Contact</h2>
-      <p>Email: <a href="mailto:sribalajeesivabal@gmail.com">sribalajeesivabal@gmail.com</a><br />
-      Phone: +91 93458 12582<br />
-      LinkedIn: <a href="https://www.linkedin.com/in/sribalajee-sivabal-32/" target="_blank" rel="noopener noreferrer">linkedin.com/in/sribalajee-sivabal-32</a></p>
+      <p class="contact-info">
+        Email: <a href="mailto:sribalajeesivabal@gmail.com">sribalajeesivabal@gmail.com</a><br />
+        Phone: +91 93458 12582<br />
+        LinkedIn: <a href="https://www.linkedin.com/in/sribalajee-sivabal-32/" target="_blank" rel="noopener noreferrer">linkedin.com/in/sribalajee-sivabal-32</a>
+      </p>
     </section>
 
     <footer>
